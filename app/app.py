@@ -1,7 +1,7 @@
 from random import random
 import random
 import math
-import location_data
+from . import location_data
 import json
 import pickle
 from flask import Flask, jsonify, request, Response
